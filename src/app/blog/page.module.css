@@ -1,0 +1,34 @@
+.container {}
+
+
+.item {
+    display: flex;
+    gap: 3rem;
+    margin-top: 2.5rem;
+    margin-bottom: 4rem;
+
+}
+
+
+.content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.title {}
+
+.desc {}
+
+.imgContainer {
+    flex: 1;
+    position: relative;
+    height: 200px;
+    width: 400px;
+}
+
+.image {
+    object-fit: contain;
+}

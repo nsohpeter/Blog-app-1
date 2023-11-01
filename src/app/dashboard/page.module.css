@@ -1,0 +1,49 @@
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    gap: 1rem;
+    margin-top: -200px;
+
+}
+
+.myPostHeader {
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.container hr {
+    background-color: #bbb;
+}
+
+.postsContainer {
+    display: flex;
+    align-items: center;
+
+    justify-content: space-around;
+}
+
+
+.imgContainer {
+    position: relative;
+    height: 200px;
+    width: 600px;
+}
+
+.image {
+    object-fit: contain;
+}
+
+.postText {}
+
+.postText h2 {}
+
+.postText p {}
+
+.btn {
+    background-color: crimson;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+}
